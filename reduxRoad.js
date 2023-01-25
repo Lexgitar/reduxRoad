@@ -26,6 +26,7 @@ const Redusky=(state=initialWagonState, action)=>{
      days: state.days + 1
      }
    }
+   
    default:{
      return state;
    }
