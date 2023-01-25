@@ -26,7 +26,7 @@ const Redusky=(state=initialWagonState, action)=>{
      days: state.days + 1
      }
    }
-   
+
    default:{
      return state;
    }
@@ -35,6 +35,7 @@ const Redusky=(state=initialWagonState, action)=>{
 
 let wagon = Redusky(undefined, {});
 console.log(wagon);
+
 
 let action={type: 'travel', payload: 1};
 wagon = Redusky(wagon, action);
