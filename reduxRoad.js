@@ -56,3 +56,9 @@ console.log(wagon);
 let action5 = {type:'travel', payload:3};
 wagon = Redusky(wagon, action4);
 console.log(wagon);
+
+
+// Add a cash property, beginning with 200 for the initial state
+// Add a 'sell' case: Players can give away 20 supplies to gain 5 cash
+// Add a 'buy' case: Players can gain 25 supplies at the cost of 15 cash
+// Add a 'theft' case: Outlaws steal half of the player’s cash
